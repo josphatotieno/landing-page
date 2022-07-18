@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+#showcase {
+    padding: 20px 120px 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-header,
+a,
+#showcase-content {
+    color: #fff;
+}
+
+#navbar li:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+#showcase-content {
+    padding: 50px 0;
+}
+
+#showcase-content h3 {
+    font-size: 40px;
+}
