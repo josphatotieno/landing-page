@@ -2,4 +2,4 @@
 
 ## About
 
-This is a landing built with html and css.
+This is a landing page built with html and css.
